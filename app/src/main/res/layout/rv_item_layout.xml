@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/recipetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:text="Recipe Title:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/idRVtitle"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/recipetitle"
+            android:text="makanan" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/recipetitle"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Type:"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/idRVtype"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/type"
+            android:layout_below="@id/recipetitle"
+            android:text="makanan/minuman" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/type"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="30dp"
+            android:text="Recipe Description:"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/type"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/description"
+            android:text="makanan"
+            android:textColor="@color/white"
+            android:id="@+id/idRVdesc" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="30dp"
+            android:layout_margin="10dp"
+            android:text="Ingredients Needed:"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/description"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@id/description"
+            android:text="bahan"
+            android:textColor="@color/white"
+            android:id="@+id/idRVingre" />
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

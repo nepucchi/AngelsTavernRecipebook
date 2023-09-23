@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014291900130",
+    "project_id": "recipe-uts",
+    "storage_bucket": "recipe-uts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014291900130:android:dba95c52cc900f0572e0bb",
+        "android_client_info": {
+          "package_name": "com.example.uts_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014291900130-s6tiafut421peb19h889pnrh7hio5c7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUHttQCiKu8AlPy3ZXqvLv2ozeR0-3aCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014291900130-s6tiafut421peb19h889pnrh7hio5c7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
